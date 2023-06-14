@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./static/style.css" />
+
+    <!-- Javascript -->
+    <script src="./static/script.js" async></script>
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="./static/images/flavicon.png">
+    <title>Sophie's Portfolio</title>
+</head>
+
+<body>
+    <div class="body">
+        <a id="top"></a>
+
+        <nav class="navbar" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"></a>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about_me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/resume">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="information">
+            <div class="name_header"><u>Sophie Slagle</u></div>
+            <div class="name_description"> Web Developer </div>
+        </div>
+
+        <div class="divider">
+            <hr class="rounded">
+        </div>
+
+            <div class="title"id="about_me"> <u>About Me:</u> </div>
+
+
+
+
+        <div class="paragraph">
+            <p>Hello! My name is Sophie, and I am a web developer with a diverse background. I specialize in coding with HTML, CSS, and Python to create beautiful, responsive websites that engage users and solve problems.
+                Before transitioning to coding, I spent several years as a pitching coach, helping young athletes refine
+                their skills and achieve their goals. This experience taught me the importance of effective
+                communication, adaptability, and continuous improvement, which I now apply to my work as a developer. I
+                am always seeking new challenges and opportunities to learn, grow, and make a positive impact through
+                technology. I enjoy spending time with my dog Caly, traveling, working out and playing video games. </p>
+        </div>
+        <div class="slideshow1">
+            <div id="slider">
+                <figure>
+                    <img src="../static/images/selfpic.jpg" />
+                    <img src="../static/images/bigbear.jpg">
+                    <img src="../static/images/Calysleep.jpg">
+                </figure>
+            </div>
+        </div>
+
+
+
+        <div class="divider">
+            <hr class="rounded">
+        </div>
+
+        <div class="title" id="projects"> <u>Projects:</u> </div>
+
+        <div class="column">
+            <div class="paragraph">
+                <p>I built this portfolio website from scratch using HTML, CSS, Bootstrap, Flask, and Python. It is a work in progress and I will update it as I learn more! Here are some other projects I have made! You can find the code for these projects on my 
+                    <a class="github" href="https://github.com/Soapie14">GitHub</a>.
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="column">
+            <div class="paragraph">
+                <p><li>My first website I built was a sasquatch sightings website! This was so fun to put together using
+                    HTML, CSS, Bootstrap, MySQL and Flask. This is a blog style website that has a working login and
+                    registration, posts, details and a log out function. </p></li>
+            </div>
+
+            <div class="slideshow">
+                <div id="slider">
+                    <figure>
+                        <img src="../static/images/projectphotos/Login.PNG" />
+                        <img src="../static/images/projectphotos/home.png">
+                        <img src="../static/images/projectphotos/details.PNG">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="column">
+            <div class="paragraph">
+                <p><li>The second website that I build, I focused a lot more on CSS and Bootstrap to make the front end look
+                    nice. The difference was huge and I absolutely loved making this website look smooth and
+                    professional. This website is also a blog style using HTML, CSS, Bootstrap, Flask, MySQL, and
+                    JavaScript, with working Password encryption, login and registration, posts with edit, delete and
+                    details along with a home page. </li></p>
+            </div>
+
+            <div class="slideshow">
+                <div id="slider">
+                    <figure>
+                        <img src="../static/images/projectphotos/login2.PNG" />
+                        <img src="../static/images/projectphotos/register2.PNG">
+                        <img src="../static/images/projectphotos/home2.PNG">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="divider">
+            <hr class="rounded">
+        </div>
+        <div class="title" id="contact"> <u>Contact:</u> </div>
+        
+        <div class="contact_me">
+            <a href = "mailto: slagsoph@isu.edu">Send me an Email</a>
+        </div>
+        <p class="resume"><a href="/resume">View my Resume</a></p>
+
+        <!-- Need to fix socials with scrolling -->
+        <!-- Socials -->
+        <ul class="socials">
+            <li class="liSocials">
+                <a class="linkSocials" href="https://github.com/Soapie14">
+                    <i class="uil uil-github"></i>
+                </a>
+            </li>
+            <li class="liSocials">
+                <a class="linkSocials" href="https://www.linkedin.com/in/sophie-slagle-2633a822a/">
+                    <i class="uil uil-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+
+
+    </div>
+</body>
+
+</html>
